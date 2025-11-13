@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: trainingconfigmap
+data:
+  training: microservices
+  topic: k8s
+  lab: azure
+  keys: |
+    name.training=microservices
+    lab.training=azure
+    topic.training=k8s

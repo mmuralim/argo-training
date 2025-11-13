@@ -1,0 +1,155 @@
+apiVersion: argoproj.io/v1alpha1
+
+kind: Workflow
+
+metadata:
+
+  generateName: deploy-nginx
+
+spec:
+
+  entrypoint: deploy-nginx
+
+
+  templates:
+
+  - name: deploy-nginx
+
+    steps:
+
+    - - name: create-deployment
+
+        template: apply-deployment
+
+    - - name: create-service
+
+        template: apply-service
+
+    - - name: get-service-status
+
+        template: check-service
+
+
+  - name: apply-deployment
+
+    container:
+
+      image: bitnami/kubectl
+
+      command: [sh, -c]
+
+      args:
+
+        - | 
+
+          cat <<EOF | kubectl apply -f - 
+
+          apiVersion: apps/v1 
+
+          kind: Deployment 
+
+          metadata:
+
+            name: nginx-deployment
+
+            labels:
+
+              app: nginx
+
+          spec:
+
+            replicas: 3
+
+            selector:
+
+              matchLabels:
+
+                app: nginx
+
+            template:
+
+              metadata:
+
+                labels:
+
+                  app: nginx
+
+              spec:
+
+                containers:
+
+                - name: nginx
+
+                  image: nginx:latest
+
+                  ports:
+
+                  - containerPort: 80
+
+          EOF
+
+
+  - name: apply-service
+
+    container:
+
+      image: bitnami/kubectl
+
+      command: [sh, -c]
+
+      args:
+
+        - | 
+
+          cat <<EOF | kubectl apply -f - 
+
+          apiVersion: v1 
+
+          kind: Service 
+
+          metadata:
+
+            name: nginx-service
+
+            labels:
+
+              app: nginx
+
+          spec:
+
+            type: LoadBalancer
+
+            selector:
+
+              app: nginx
+
+            ports:
+
+            - protocol: TCP
+
+              port: 80
+
+          EOF
+
+
+  - name: check-service
+
+    container:
+
+      image: bitnami/kubectl:latest
+
+      command: [sh, -c]
+
+      args:
+
+        - |
+
+          echo "Waiting for LoadBalancer IP..."
+
+          kubectl get service nginx-service -n argo
+
+          echo ""
+
+          echo "Deployment status:"
+
+          kubectl get deployment nginx-deployment -n argo
