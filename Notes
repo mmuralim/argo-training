@@ -1,0 +1,1941 @@
+Welcome to Argo CD Training
+===
+
+server access
+S.No	Name	Console URL	Login Email	Login Password
+1	Deepak Barskar	https://app.labasservice.com/zippyops	zp-labuser1@labasservice.com	Lab@$service
+2	Ashutosh Alwany	https://app.labasservice.com/zippyops	zp-labuser2@labasservice.com	Lab@$service
+3	Neethu Sudhish Kumar	https://app.labasservice.com/zippyops	zp-labuser3@labasservice.com	Lab@$service
+4	Parimal Neve	https://app.labasservice.com/zippyops	zp-labuser4@labasservice.com	Lab@$service
+5	Sachin Lakhpati	https://app.labasservice.com/zippyops	zp-labuser5@labasservice.com	Lab@$service
+6	Shrikant Gujar	https://app.labasservice.com/zippyops	zp-labuser6@labasservice.com	Lab@$service
+7	Syam Dinesh Bayyana	https://app.labasservice.com/zippyops	zp-labuser7@labasservice.com	Lab@$service
+8	Akhil K	https://app.labasservice.com/zippyops	zp-labuser8@labasservice.com	Lab@$service
+9	Vishnuraj TS	https://app.labasservice.com/zippyops	zp-labuser9@labasservice.com	Lab@$service
+10	Sarath Madhu	https://app.labasservice.com/zippyops	zp-labuser10@labasservice.com	Lab@$service
+11	Dona Ann Sony	https://app.labasservice.com/zippyops	zp-labuser11@labasservice.com	Lab@$service
+12	Murali Mamidisetti 	https://app.labasservice.com/zippyops	zp-labuser12@labasservice.com	Lab@$service
+13	Chetan Salaskar	https://app.labasservice.com/zippyops	zp-labuser13@labasservice.com	Lab@$service
+14	Raja Reddy Kolli	https://app.labasservice.com/zippyops	zp-labuser14@labasservice.com	Lab@$service
+15	Aswathy Lal	https://app.labasservice.com/zippyops	zp-labuser15@labasservice.com	Lab@$service
+16	Arjun Vijaykumar	https://app.labasservice.com/zippyops	zp-labuser16@labasservice.com	Lab@$service
+17	Selvakumar S	https://app.labasservice.com/zippyops	zp-labuser17@labasservice.com	Lab@$service
+18	Sreeraj R	https://app.labasservice.com/zippyops	zp-labuser18@labasservice.com	Lab@$service
+19	Seema Dange	https://app.labasservice.com/zippyops	zp-labuser19@labasservice.com	Lab@$service
+20	Poonam Rajendra More	https://app.labasservice.com/zippyops	zp-labuser20@labasservice.com	Lab@$service
+
+Cloud access
+Name	Username	Password	Login URL	Region
+Deepak Barskar	traininguser5@zippyopsgmail.onmicrosoft.com	lQIWojP3PguGLluR	https://portal.azure.com	EAST US
+Ashutosh Alwany	traininguser6@zippyopsgmail.onmicrosoft.com	lQIWojP3PguGLluR	https://portal.azure.com	EAST US
+Neethu Sudhish Kumar	traininguser7@zippyopsgmail.onmicrosoft.com	lQIWojP3PguGLluR	https://portal.azure.com	EAST US
+Parimal Neve	traininguser8@zippyopsgmail.onmicrosoft.com	lQIWojP3PguGLluR	https://portal.azure.com	EAST US
+Sachin Lakhpati	traininguser9@zippyopsgmail.onmicrosoft.com	lQIWojP3PguGLluR	https://portal.azure.com	EAST US
+Shrikant Gujar	traininguser10@zippyopsgmail.onmicrosoft.com	lQIWojP3PguGLluR	https://portal.azure.com	EAST US
+Syam Dinesh Bayyana	traininguser11@zippyopsgmail.onmicrosoft.com	lQIWojP3PguGLluR	https://portal.azure.com	EAST US
+Akhil K	traininguser12@zippyopsgmail.onmicrosoft.com	lQIWojP3PguGLluR	https://portal.azure.com	EAST US
+Vishnuraj TS	traininguser13@zippyopsgmail.onmicrosoft.com	lQIWojP3PguGLluR	https://portal.azure.com	EAST US
+Sarath Madhu	traininguser14@zippyopsgmail.onmicrosoft.com	lQIWojP3PguGLluR	https://portal.azure.com	EAST US
+Dona Ann Sony	traininguser15@zippyopsgmail.onmicrosoft.com	lQIWojP3PguGLluR	https://portal.azure.com	EAST US
+Murali Mamidisetti 	traininguser16@zippyopsgmail.onmicrosoft.com	lQIWojP3PguGLluR	https://portal.azure.com	EAST US
+Chetan Salaskar	traininguser17@zippyopsgmail.onmicrosoft.com	lQIWojP3PguGLluR	https://portal.azure.com	EAST US
+Raja Reddy Kolli	traininguser18@zippyopsgmail.onmicrosoft.com	lQIWojP3PguGLluR	https://portal.azure.com	EAST US
+Aswathy Lal	traininguser19@zippyopsgmail.onmicrosoft.com	lQIWojP3PguGLluR	https://portal.azure.com	EAST US
+Arjun Vijaykumar	traininguser20@zippyopsgmail.onmicrosoft.com	lQIWojP3PguGLluR	https://portal.azure.com	EAST US
+Selvakumar S	traininguser21@zippyopsgmail.onmicrosoft.com	lQIWojP3PguGLluR	https://portal.azure.com	EAST US
+Sreeraj R	traininguser22@zippyopsgmail.onmicrosoft.com	lQIWojP3PguGLluR	https://portal.azure.com	EAST US
+Seema Dange	traininguser23@zippyopsgmail.onmicrosoft.com	lQIWojP3PguGLluR	https://portal.azure.com	EAST US
+Poonam Rajendra More	traininguser24@zippyopsgmail.onmicrosoft.com	lQIWojP3PguGLluR	https://portal.azure.com	EAST US
+
+In Azure portal setup MFA
+---
+select "Set up a different way to sign in"
+select "phone"
+
+Create kubernetes cluster
+---
+azure -- search "Kubernetes services" -- create -- kubernetes cluster
+
+Basics
+    Resource group -- Create new -- Name -- {your name} -- ok
+    Cluster details -- Cluster preset configuration -- Dev/Test
+    Kubernetes cluster name -- {your name}
+    Region -- East US
+    Fleet Manager -- none
+    Availability zones -- None
+    AKS pricing tier -- Free
+    Kubernetes version -- 1.32.9
+    Automatic upgrade -- enabled with patch
+    Node security channel type -- node image
+    Authentication and Authorization -- local account with kubernetes RBAC
+    
+Node pool 
+   select "agent pool"
+        node size 
+            choose a size 
+                Standard D2s v3
+            update
+next
+
+Networking: 
+    No changes
+next
+
+Integration: 
+    No changes
+next
+
+Monitoring: No changes
+
+next
+
+Security: No changes
+
+    next
+    
+Advanced: No changes
+
+    next
+    
+Tags: No changes
+
+    next
+
+Review and create: No changes
+
+    Create
+    
+Go to resources
+
+Connect to terminal
+---
+sudo su
+
+install azure cli
+---
+curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
+
+check azure cli installation
+---
+az --version
+
+login to azure cli
+---
+az login
+
+follow on screen instruction
+
+Press Enter
+
+download and install kubectl
+---
+curl -LO https://dl.k8s.io/release/v1.32.9/bin/linux/amd64/kubectl
+
+chmod +x kubectl
+mv kubectl /usr/bin/
+
+Get the kubeconfig from azure
+-- 
+azure -- kubernetes service -- your clustet -- connect
+    copy paste the command under "Download cluster credentials"
+    
+test the connectivity
+---
+kubectl get nodes
+
+Day 2
+===
+Connect to server and portal
+
+start the cluster
+---
+Azure portal -- kubernetes service -- you cluster -- start
+
+Test the connectivity to cluster
+---
+sudo su
+
+kubectl get nodes
+
+command to list the nodes
+---
+kubectl get nodes
+
+command to get a detailled infromnation about a resource
+---
+kubectl describe node {your node name}
+
+command to edit a resource
+---
+kubectl edit node {your node name}
+
+ESC -- :q! -- ENTER
+
+
+command to list the namespaces
+---
+kubectl get namespaces
+kubectl get ns
+
+command to list all resources on a namespace
+---
+kubectl get all
+
+command to get all the resources in the kube-system name space
+---
+kubectl get all -n kube-system
+
+pod
+--
+kubectl get pod
+kubectl get pod --all-namespaces
+kubectl get pod -A
+kubectl get po  -A
+
+Deployment
+---
+kubectl get deployment -A
+kubectl get deploy -A
+    
+replicaset
+---
+kubectl get replicaset -A
+kubectl get rs -A
+    
+Service
+---
+kubectl get service -A
+kubectl get svc -A
+
+Daemonset
+---
+kubectl get daemonset -n kube-system
+kubectl get ds -n kube-system
+
+statefulset
+--
+kubectl get statefulset -A
+
+persistenntvolumeclaim on all namespaces
+---
+kubectl get pvc -A
+kubectl get persistentvolumeclaim -A
+
+storageclass
+---
+kubectl get sc
+kubectl get storageclass
+
+persistant volume
+---
+kubectl get pv
+kubectl get persistentvolume
+
+config map
+---
+kubectl get cm -A
+kubectl get configmap -A
+
+secrets
+---
+kubectl get secrets -A
+
+Api Reference
+---
+https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.32/
+
+create directory for kubernetes
+---
+cd
+
+mkdir kubernetes
+cd kubernetes/
+
+create firtsapp
+---
+nano firstapp.yaml 
+
+nano firstapp.yaml -
+---
+apiVersion: v1
+kind: Servic
+metadata:
+  name: webservice
+  labels:
+    service: web
+spec:
+  ports:
+  - port: 80
+    protocol: TCP
+  selector:
+    app: web
+  type: LoadBalancer
+  
+save and exit
+---
+CTRL + o  -- enter -- CTRL + x
+
+create the resources in default namespace
+---
+kubectl create -f firstapp.yaml
+
+list all resources in default namespace
+---
+kubectl get all
+
+access the public ip on browser
+---
+http://{your public ip}
+
+Modify the yaml to increase the replicas from 2 to 4
+---
+nano firstapp.yaml 
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: webdeployment
+  labels:
+    service: web
+spec:
+  replicas: 4
+  selector:
+   apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: webdeployment
+  labels:
+    service: web
+spec:
+  replicas: 4
+  selector:
+    matchLabels:
+      app: web
+  template:
+    metadata:
+      labels:
+        app: web
+    spec:
+      containers:
+      - name: nginxcontainer
+        image: nginx
+        ports:
+        - containerPort: 80 matchLabels:
+      app: web
+  template:
+    metadata:
+      labels:
+        app: web
+    spec:
+      containers:
+      - name: nginxcontainer
+        image: nginx
+        ports:
+        - containerPort: 80
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: webservice
+  labels:
+    service: web
+spec:
+  ports:
+  - port: 80
+    protocol: TCP
+  selector:
+    app: web
+  type: LoadBalancer
+  
+try to run the create again -- This will faill
+---
+kubectl create -f firstapp.yaml
+
+apply the yaml
+---
+kubectl apply -f firstapp.yaml
+kubectl apply -f firstapp.yaml
+
+Delete a pod 
+---
+kubectl delete po {any pod}
+
+list all resources in default namespace
+---
+kubectl get all
+
+Delete the resources created by yaml
+---
+kubectl delete -f firstapp.yaml
+
+list all resources in default namespace
+---
+kubectl get all
+
+apply the yaml
+---
+kubectl apply -f firstapp.yaml
+kubectl get all
+
+manual scalling
+---
+kubectl scale deploy webdeployment --replicas=5
+kubectl get po
+kubectl scale deploy webdeployment --replicas=2
+kubectl get po
+
+Autoscale a deployment
+---
+kubectl autoscale deployment webdeployment --min=2 --max=10 --cpu-percent=80
+
+List the hpa
+---
+kubectl get hpa
+
+Command to update the image of a pod in deployment
+---
+kubectl set image deployment webdeployment nginxcontainer=nginx:1.28
+
+List all the resources
+---
+kubectl get all
+
+Command to rollback a deployment
+---
+kubectl rollout undo deployment webdeployment
+
+Command to list deployment hiostory
+---
+kubectl rollout history deployment webdeployment
+
+Command to rollabck to a particular revison
+--
+kubectl rollout undo deployment webdeployment --to-revision=2
+
+get the deployment yaml
+---
+kubectl get deploy webdeployment -o yaml
+
+Delete the resources created with yaml
+---
+kubectl delete -f firstapp.yaml
+
+Create a blue deployment
+---
+nano blue.yaml 
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: bluedeployment
+  labels:
+    service: web
+spec:
+  replicas: 4
+  selector:
+    matchLabels:
+      app: web
+  template:
+    metadata:
+      labels:
+        app: web
+        version: blue
+    spec:
+      containers:
+      - name: nginxcontainer
+        image: nginx:1.28
+        ports:
+        - containerPort: 80
+        
+Create the deployment
+---
+kubectl apply -f blue.yaml
+
+Create service pointing to blue deployment
+---
+nano service.yaml 
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: webservice
+  labels:
+    service: web
+spec:
+  ports:
+  - port: 80
+    protocol: TCP
+  selector:
+    app: web
+    version: blue
+  type: LoadBalancer
+  
+Create the service
+---
+kubectl apply -f service.yaml
+
+List the services
+---
+kubectl get svc
+
+Check the version of nginx
+---
+http://{your public ip}/test
+
+Create a green deployment pointing to latest version of nginx
+---
+nano green.yaml 
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: greendeployment
+  labels:
+    service: web
+spec:
+  replicas: 4
+  selector:
+    matchLabels:
+      app: web
+  template:
+    metadata:
+      labels:
+        app: web
+        version: green
+    spec:
+      containers:
+      - name: nginxcontainer
+        image: nginx
+        ports:
+        - containerPort: 80
+        
+Craete Green Deployment
+---
+kubectl apply -f green.yaml
+
+Modify the service.yaml to point to green deployment insted of blue deployment
+---
+nano service.yaml 
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: webservice
+  labels:
+    service: web
+spec:
+  ports:
+  - port: 80
+    protocol: TCP
+  selector:
+    app: web
+    version: green
+  type: LoadBalancer
+
+update the service
+---
+kubectl apply -f service.yaml
+
+refresh the webpage and Check the version of nginx
+---
+http://{your public ip}/test
+
+Perform clean up
+---
+kubectl delete -f service.yaml
+kubectl delete -f blue.yaml
+kubectl delete -f green.yaml
+kubectl delete hpa webdeployment
+
+Cron Job
+---
+*	* 	* 	* 	*
+Minutes
+	hour
+		day	
+			month
+				day of the week
+
+0 9 * * * -- every day at 9 AM
+0 21 * * * -- every day at 9 PM
+0 9 * * 1,2,3,4,5 -- every weekday at 9 AM
+0 9 * * 1-5 -- every weekday at 9 AM
+0 9 1 * * -- 9 AM first day of every month
+0 9 1 1,3,6,9 * -- 9 AM first day of every quarter
+0 9 1 */4 * -- 9 AM first day of every quarter
+
+Stop your kubernetes cluster
+---
+azure -- kubernetes -- {your cluster} -- stop
+
+Day 3
+===
+Connect to server and portal
+
+start the cluster
+---
+Azure portal -- kubernetes service -- you cluster -- start
+
+Test the connectivity to cluster
+---
+sudo su
+
+kubectl get nodes
+
+cd kubernetes
+
+Cronjob in kubernetes
+---
+nano cronjob.yaml
+
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: training
+spec:
+  schedule: "*/2 * * * *"
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          containers:
+          - name: training
+            image: bash
+            command: ["bash", "-c", "echo Current date is $(date)"]
+          restartPolicy: OnFailure
+
+save and exit
+---
+CTRL + o  -- enter -- CTRL + x
+
+Create cronjob
+---
+kubectl apply -f cronjob.yaml
+
+List the resources
+----
+kubectl get cj
+kubectl get job
+kubectl get po
+
+List the pods in wait mode
+---
+kubectl get po -w
+
+to come out of wait CTRL + c
+
+patch the cj to pause it
+---
+kubectl patch cronjob training -p '{"spec": {"suspend": true}}'
+
+List the resources
+----
+kubectl get cj
+kubectl get job
+
+patch the cj to resume it
+---
+kubectl patch cronjob training -p '{"spec": {"suspend": false}}'
+
+to get the logs of a po
+---
+kubectl logs {your pod}
+kubectl logs -f {your pod}
+
+delete cronjob directly
+---
+kubectl delete cj training
+
+run a pod directly
+----
+kubectl run testpod -it --image bash -- bash
+
+exit
+
+run a command inside the teriminal
+----
+kubectl exec testpod -- ls
+
+take a shell session inside running pod
+----
+kubectl exec -it testpod -- bash
+
+exit
+
+Delete the pod
+---
+kubectl delete po testpod
+
+run the pod with rm
+----
+kubectl run testpod -it --rm --image bash -- bash
+
+exit
+
+environment variable
+----
+nano env.yaml 
+
+apiVersion: v1
+kind: Pod
+metadata:
+    name: environment
+spec:
+  containers:
+  - name: envcontainer
+    image: ubuntu
+    command: ["sleep", "365d"]
+    env:
+    - name: TRAINING
+      value: "microservices"
+    - name: TOPIC
+      value: "k8s"
+      
+Create the pod using the yaml
+---
+kubectl apply -f env.yaml
+
+run env command inside pod to get the avalibale environment variables
+---
+kubectl get po
+kubectl exec environment -- env
+
+Create configmap with multiple variables
+----
+nano configmap.yaml 
+
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: trainingconfigmap
+data:
+  training: microservices
+  topic: k8s
+  lab: azure
+  keys: |
+    name.training=microservices
+    lab.training=azure
+    topic.training=k8s
+    
+Create configmap using yaml and list it
+---
+kubectl apply -f configmap.yaml
+
+kubectl get cm
+
+create a pod to use env from configmap
+---
+nano configmappod.yaml 
+
+apiVersion: v1
+kind: Pod
+metadata:
+    name: configmappod
+spec:
+  containers:
+  - name: configmapcontainer
+    image: ubuntu
+    command: ["sleep", "365d"]
+    envFrom:
+    - configMapRef:
+        name: trainingconfigmap
+
+Create the pod using yaml
+---
+kubectl apply -f configmappod.yaml
+
+run env command inside pod to get the avalibale environment variables
+---
+kubectl exec configmappod -- env
+
+Create a redis config file
+----
+nano redis-config
+
+maxmemory 2mb
+maxmemory-policy allkeys-lru
+
+convert the redis configuration file into configmap
+---
+kubectl create configmap redis --from-file=redis-config
+
+create a redis pod by mouting the redis config file from configmap
+---- 
+nano redis.yaml
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: redis
+spec:
+  containers:
+  - name: redis
+    image: redis:5.0.4
+    command:
+      - redis-server
+      - "/redis-master/redis.conf"
+    env:
+    - name: MASTER
+      value: "true"
+    ports:
+    - containerPort: 5963
+    volumeMounts:
+    - mountPath: /redis-master-data
+      name: data
+    - mountPath: /redis-master
+      name: config
+  volumes:
+    - name: config
+      configMap:
+        name: redis
+        items:
+        - key: redis-config
+          path: redis.conf
+	- name: data
+      emptyDir: {}
+
+Create redis pod using yaml
+---
+kubectl apply -f redis.yaml
+
+
+Take a teriminal inside the pod and check the config file
+---
+kubectl exec -it redis -- bash
+ls /redis-master/
+cat /redis-master/redis.conf
+exit
+
+Get the values via redis cli
+---
+kubectl exec -it redis -- redis-cli
+
+config get MAXMEMORY
+config get MAXMEMORY-POLICY
+
+exit
+
+Create a yaml for multicontainer pod
+----
+nano multi.yaml
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: multi
+spec:
+  volumes:
+  - name: data
+    emptyDir: {}
+  containers:
+  - name: datagen
+    image: debian
+    command: ["/bin/sh","-c"]
+    args:
+      - while true; do
+          date >> /html/index.html;
+          sleep 10;
+        done
+    volumeMounts:
+    - name: data
+      mountPath: /html
+  - name: datadis
+    image: nginx
+    volumeMounts:
+    - name: data
+      mountPath: /usr/share/nginx/html
+
+Create pod with multiple container and list them
+---
+kubectl apply -f multi.yaml
+
+kubectl get po
+
+get the log from specific containers
+---
+kubectl logs multi
+kubectl logs multi -c datagen
+kubectl logs multi -c datadis
+
+to excute commnad on specific containers
+----
+kubectl exec multi -c datadis -- cat /usr/share/nginx/html/index.html
+kubectl exec multi -c datagen -- cat /html/index.html
+
+Do a clean up
+-- 
+kubectl delete po multi redis configmappod environment
+
+Create secret for mysql username and password
+---
+nano secret.yaml
+
+apiVersion: v1
+kind: Secret
+metadata:
+  name: mysql-credentials
+  labels:
+    "k8straining": lamp
+type: Opaque
+data:
+  rootpw: dmFyTXlSb290UGFzcw==
+  user: dmFyTXlEQlVzZXI=
+  password: dmFyTXlEQlBhc3M=
+
+Create the secret using yaml
+---
+kubectl apply -f secret.yaml
+
+Secret types in kuberenetes
+---
+| Type                                  | Description                                                                                              |
+| ------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| `Opaque`                              | **Default type**. Stores arbitrary key-value pairs (Base64 encoded). Most commonly used.                 |
+| `kubernetes.io/service-account-token` | Automatically created Secret containing a token for service account authentication.                      |
+| `kubernetes.io/dockercfg`             | Legacy format for storing Docker credentials (`.dockercfg`).                                             |
+| `kubernetes.io/dockerconfigjson`      | Stores Docker registry credentials in modern format (`.dockerconfigjson`). Used for private image pulls. |
+| `kubernetes.io/basic-auth`            | Stores a username and password for basic HTTP authentication.                                            |
+| `kubernetes.io/ssh-auth`              | Stores an SSH private key (`ssh-privatekey`).                                                            |
+| `kubernetes.io/tls`                   | Stores a TLS certificate and private key (`tls.crt` and `tls.key`).                                      |
+| `bootstrap.kubernetes.io/token`       | Used by kubeadm for node bootstrap authentication.                                                       |
+
+create db
+---
+
+nano db.yaml
+
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: database
+  labels:
+    "k8straining": lamp
+spec:
+  accessModes:
+  - ReadWriteOnce
+  storageClassName: default
+  resources:
+    requests:
+      storage: 1Gi
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mysql
+  labels:
+    "k8straining": lamp
+spec:
+  replicas: 1
+  revisionHistoryLimit: 5
+  selector:
+    matchLabels:
+      app: mysql
+  template:
+    metadata:
+      labels:
+        app: mysql
+    spec:
+      containers:
+      - image: mysql:5.7
+        name: mysql
+        resources:
+          requests:
+            cpu: "250m"
+            memory: "256Mi"
+          limits:
+            cpu: 1
+            memory: "1Gi"
+        env:
+        - name: MYSQL_ROOT_PASSWORD
+          valueFrom:
+            secretKeyRef:
+              name: mysql-credentials
+              key: rootpw
+        - name: MYSQL_USER
+          valueFrom:
+            secretKeyRef:
+              name: mysql-credentials
+              key: user
+        - name: MYSQL_PASSWORD
+          valueFrom:
+            secretKeyRef:
+              name: mysql-credentials
+              key: password
+        - name: MYSQL_DATABASE
+          value: sakila
+        livenessProbe:
+          tcpSocket:
+            port: 3306
+        ports:
+        - containerPort: 3306
+        volumeMounts:
+        - mountPath: /var/lib/mysql
+          subPath: data
+          name: database
+      volumes:
+      - name: database
+        persistentVolumeClaim:
+          claimName: database
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: mysql
+  labels:
+    "k8straining": lamp
+spec:
+  type: ClusterIP
+  ports:
+  - port: 3306
+    protocol: TCP
+  selector:
+    app: mysql
+
+Create DB with yaml
+---
+kubectl apply -f db.yaml
+
+List the resources
+---
+kubectl get all
+kubectl get pvc
+kubectl get pv
+
+create a data loader job
+---
+nano dataloader.yaml
+
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: mysqldataloader
+  labels:
+    "k8straining": lamp
+spec:
+  activeDeadlineSeconds: 600
+  template:
+    metadata:
+      name: mysqldataloader
+    spec:
+      containers:
+      - name: mysqldataloader
+        image: sathishbob/example-php-dbconnect
+        env:
+        - name: MYSQL_USER
+          valueFrom:
+            secretKeyRef:
+              name: mysql-credentials
+              key: user
+        - name: MYSQL_PASSWORD
+          valueFrom:
+            secretKeyRef:
+              name: mysql-credentials
+              key: password
+        - name: MYSQL_HOST
+          value: mysql.default.svc.cluster.local
+        command: ["/tmp/mysql-sakila-data-loader.sh"]
+      restartPolicy: OnFailure
+
+Create data loader using yaml
+---
+kubectl apply -f dataloader.yaml
+
+list the resources and see the logs of the pod
+---
+kubectl get job
+kubectl get po
+kubectl logs {your pod name}
+
+deploy php app
+----
+nano phpapp.yaml
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: phpdbconnect
+  labels:
+    "k8straining": lamp
+spec:
+  replicas: 3
+  revisionHistoryLimit: 5
+  selector:
+    matchLabels:
+      app: phpdbconnect
+  template:
+    metadata:
+      labels:
+        app: phpdbconnect
+    spec:
+      containers:
+      - image: sathishbob/example-php-dbconnect
+        name: phpdbconnect
+        imagePullPolicy: Always
+        resources:
+          requests:
+            cpu: 100m
+        env:
+        - name: MYSQL_USER
+          valueFrom:
+            secretKeyRef:
+              name: mysql-credentials
+              key: user
+        - name: MYSQL_PASSWORD
+          valueFrom:
+            secretKeyRef:
+              name: mysql-credentials
+              key: password
+        - name: MYSQL_HOST
+          value: mysql.default.svc.cluster.local
+        livenessProbe:
+          tcpSocket:
+            port: 80
+        ports:
+        - containerPort: 80
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: phpapp
+  labels:
+    "k8straining": lamp
+spec:
+  ports:
+  - port: 80
+    protocol: TCP
+  selector:
+    app: phpdbconnect
+  type: LoadBalancer  
+
+create deployment and service using yaml
+---
+kubectl apply -f phpapp.yaml
+
+access the webapp
+---
+kubectl get svc
+http://{your external ip}
+http://{your external ip}/mysql-connect.php
+
+do the clean up
+---
+kubectl delete -f phpapp.yaml
+kubectl delete -f db.yaml
+kubectl delete -f dataloader.yaml
+kubectl delete -f secret.yaml
+
+install helm
+---
+curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3
+chmod +x get_helm.sh
+./get_helm.sh
+
+check the installation
+---
+helm version
+
+create a chart
+---
+helm create training
+
+show the structure of directory
+---
+apt install tree -y
+
+tree training
+
+Modify the values.yaml in
+---
+cd training
+
+nano values.yaml
+
+image:
+  repository: nginx
+  # This sets the pull policy for images.
+  pullPolicy: IfNotPresent
+  # Overrides the image tag whose default is the chart appVersion.
+  tag: "1.28"
+
+
+service:
+  # This sets the service type more information can be found here: https://kubernetes.io/docs/concepts/services-networking/service/#publishing-services-service-types
+  type: LoadBalancer
+  # This sets the ports more information can be found here: https://kubernetes.io/docs/concepts/services-networking/service/#field-spec-ports
+  port: 80
+  
+dry run the installation
+---
+helm install webapp --dry-run --debug .
+
+install the chart
+---
+helm install webapp .
+
+list all the resources
+---
+kubectl get all
+
+list the helm chart releases
+---
+helm list
+
+modify image tag in values.yaml
+---
+nano values.yaml
+
+tag: "latest"
+
+upgrade the existing helm chart installation
+---
+helm upgrade webapp -f values.yaml .
+
+Stop your kubernetes cluster
+---
+azure -- kubernetes -- {your cluster} -- stop
+
+Day 4
+===
+Connect to server and portal
+
+start the cluster
+---
+Azure portal -- kubernetes service -- you cluster -- start
+
+Test the connectivity to cluster
+---
+sudo su
+
+kubectl get nodes
+
+Argo repo
+---
+https://github.com/argoproj/argo-workflows
+
+Docs
+--
+https://argo-workflows.readthedocs.io/en/latest/
+
+Releases page
+---
+https://github.com/argoproj/argo-workflows/releases
+
+Create argo namespace
+---
+kubectl create namespace argo
+
+deploy argo on to kubernetes
+---
+kubectl apply -n argo -f https://github.com/argoproj/argo-workflows/releases/download/v3.7.3/install.yaml
+
+List the reources in the argo namespace
+---
+kubectl get all -n argo
+
+Delete existing deployment
+---
+kubectl delete deployment argo-server -n argo
+
+Create deployment with removed tls and auth configuration
+---
+cat <<EOF | kubectl apply -f -
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: argo-server
+  namespace: argo
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: argo-server
+  template:
+    metadata:
+      labels:
+        app: argo-server
+    spec:
+      serviceAccountName: argo-server
+      containers:
+      - name: argo-server
+        image: quay.io/argoproj/argocli:v3.7.3
+        args:
+        - server
+        - --auth-mode=server
+        - --secure=false
+        ports:
+        - containerPort: 2746
+          name: web
+        readinessProbe:
+          httpGet:
+            path: /
+            port: 2746
+            scheme: HTTP
+          initialDelaySeconds: 10
+          periodSeconds: 10
+        env:
+        - name: IN_CLUSTER
+          value: "true"
+        - name: ARGO_NAMESPACE
+          valueFrom:
+            fieldRef:
+              fieldPath: metadata.namespace
+EOF
+
+List the resources and check is the pod is up
+---
+kubectl get all -n argo
+
+Delete existing service
+---
+kubectl delete svc argo-server -n argo
+
+Create LoadBalancer service
+---
+cat <<EOF | kubectl apply -f -
+apiVersion: v1
+kind: Service
+metadata:
+  name: argo-server
+  namespace: argo
+spec:
+  type: LoadBalancer
+  ports:
+  - name: web
+    port: 80
+    targetPort: 2746
+    protocol: TCP
+  selector:
+    app: argo-server
+EOF
+
+List the resources and check is the public ip for the service
+---
+kubectl get all -n argo
+
+Access your argo ui
+---
+http://{your public ip}/
+
+Download Argo CLI
+---
+curl -sLO https://github.com/argoproj/argo-workflows/releases/download/v3.7.3/argo-linux-amd64.gz
+
+Uncompress
+---
+gunzip argo-linux-amd64.gz
+
+Make executable
+---
+chmod +x argo-linux-amd64
+
+Move to PATH
+---
+mv argo-linux-amd64 /usr/local/bin/argo
+
+Verify installation
+---
+argo version
+
+get the connection info
+---
+http://{your public ip}/userinfo
+
+export env variables
+---
+export ARGO_SERVER='{your public ip}:80'
+export ARGO_HTTP1=true
+export ARGO_SECURE=false
+export ARGO_TOKEN=''
+export ARGO_NAMESPACE=argo
+
+Test Argo CLI connectivity
+---
+argo list
+
+Create a yaml for sample workflow
+---
+nano hello-world.yaml 
+
+apiVersion: argoproj.io/v1alpha1
+kind: Workflow
+metadata:
+  generateName: hello-world-
+spec:
+  entrypoint: training
+  templates:
+  - name: training
+    container:
+      image: docker/whalesay
+      command:  [cowsay]
+      args: ["hello from argo workflow on aks"]
+      
+Create the work flow with yaml
+---
+argo submit hello-world.yaml -n argo
+
+list workflows
+---
+argo list
+
+get the logs of workflow
+---
+argo logs hello-world-{your workflow unique id} -n argo
+
+list the pods in argo namespace
+---
+kubectl get po -n argo
+
+get the logs of pod created
+---
+kubectl logs hello-world-{your pod unique id} -n argo
+
+Create a role binding for default service account
+---
+kubectl create rolebinding default-admin --clusterrole=admin --serviceaccount=argo:default -n argo
+
+delete the workflow
+---
+argo delete {your workflow name}
+
+Create the work flow with yaml
+---
+argo submit hello-world.yaml -n argo --watch
+
+list workflows
+---
+argo list
+
+create a workflow yaml for nginx deployment
+---
+nano argo-webapp.yaml
+
+apiVersion: argoproj.io/v1alpha1
+kind: Workflow
+metadata:
+  generateName: deploy-nginx
+spec:
+  entrypoint: deploy-nginx
+
+  templates:
+  - name: deploy-nginx
+    steps:
+    - - name: create-deployment
+        template: apply-deployment
+    - - name: create-service
+        template: apply-service
+    - - name: get-service-status
+        template: check-service
+
+  - name: apply-deployment
+    container:
+      image: bitnami/kubectl
+      command: [sh, -c]
+      args:
+        - | 
+          cat <<EOF | kubectl apply -f - 
+          apiVersion: apps/v1 
+          kind: Deployment 
+          metadata:
+            name: nginx-deployment
+            labels:
+              app: nginx
+          spec:
+            replicas: 3
+            selector:
+              matchLabels:
+                app: nginx
+            template:
+              metadata:
+                labels:
+                  app: nginx
+              spec:
+                containers:
+                - name: nginx
+                  image: nginx:latest
+                  ports:
+                  - containerPort: 80
+          EOF
+
+  - name: apply-service
+    container:
+      image: bitnami/kubectl
+      command: [sh, -c]
+      args:
+        - | 
+          cat <<EOF | kubectl apply -f - 
+          apiVersion: v1 
+          kind: Service 
+          metadata:
+            name: nginx-service
+            labels:
+              app: nginx
+          spec:
+            type: LoadBalancer
+            selector:
+              app: nginx
+            ports:
+            - protocol: TCP
+              port: 80
+          EOF
+
+  - name: check-service
+    container:
+      image: bitnami/kubectl:latest
+      command: [sh, -c]
+      args:
+        - |
+          echo "Waiting for LoadBalancer IP..."
+          kubectl get service nginx-service -n argo
+          echo ""
+          echo "Deployment status:"
+          kubectl get deployment nginx-deployment -n argo
+          
+Submit the workflow
+-- 
+argo submit argo-webapp.yaml -n argo --watch
+
+list all the resources once workflow is completed
+---
+kubectl get all -n argo
+
+see the workflow logs
+---
+argo logs {your workflow name} -n argo
+
+list the steps of workflow
+---
+argo get {your workflow name} -n argo
+
+retry with step name
+---
+argo retry {your workflow name} -n argo --restart-successful --node-field-selector displayName=get-service-status --watch
+
+Github
+---
+create a nre repo
+---
+reponame : argo-training
+Create repository
+
+push the code to repo
+---
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:{your github id}/argo-training.git
+
+Create a key pair for git auth
+---
+ssh-keygen -t rsa
+
+Press ENTER 3 times
+
+get the public key contenet
+---
+cat /root/.ssh/id_rsa.pub
+
+add the public key to your repo
+---
+repo -- settings -- Deploy keys -- add deploykey
+    title: argo
+    key: copied aralier
+    select "allow access"
+Add key
+
+Push the code
+---
+git push -u origin main
+
+do the clrean up
+---
+argo delete {hello world workflow name} -n argo
+argo delete {nginx deploymen workflow name} -n argo
+
+delete the deployment and service
+---
+kubectl delete deploy nginx-deployment -n argo
+kubectl delete svc nginx-service -n argo
+
+whatsapp: 9884627727
+
+Day 5
+===
+Connect to server and portal
+
+start the cluster
+---
+Azure portal -- kubernetes service -- you cluster -- start
+
+Test the connectivity to cluster
+---
+sudo su
+
+kubectl get nodes
+
+kubectl get svc -n argo
+
+access aro uo
+---
+http://{your public ip}
+
+list the workflows
+---
+argo list 
+
+switch to kubernetes dir
+---
+cd kubernetes/
+
+create git workflow
+---
+nano git-workflow.yaml 
+
+apiVersion: argoproj.io/v1alpha1
+kind: Workflow
+metadata:
+  generateName: deploy-from-git
+spec:
+  entrypoint: git-deploy
+  arguments:
+    parameters:
+    - name: repo-url
+      value: "https://github.com/{git user name}/argo-training.git"
+    - name: branch
+      value: "main"
+    - name: yaml-path
+      value: "firstapp.yaml"
+
+  volumeClaimTemplates:
+  - metadata:
+      name: workdir
+    spec:
+      accessModes: ["ReadWriteOnce"]
+      resources:
+        requests:
+          storage: 1Gi
+
+  templates:
+  - name: git-deploy
+    steps:
+    - - name: clone-repo
+        template: git-clone
+    - - name: apply-yaml
+        template: kubectl-apply
+    - - name: verify
+        template: check-status
+
+  - name: git-clone
+    container:
+      image: alpine/git
+      command: ["/bin/sh", "-c"]
+      args:
+      - |
+        git clone --single-branch --branch {{workflow.parameters.branch}} {{workflow.parameters.repo-url}} /work/repo
+        echo "Repository cloned successfully."
+        ls -la /work/repo
+      volumeMounts:
+      - name: workdir
+        mountPath: /work
+
+  - name: kubectl-apply
+    container:
+      image: bitnami/kubectl:latest
+      command: ["/bin/sh", "-c"]
+      args:
+      - |
+        kubectl apply -f /work/repo/{{workflow.parameters.yaml-path}}
+        echo "YAML applied successfully."
+      volumeMounts:
+      - name: workdir
+        mountPath: /work
+
+  - name: check-status
+    container:
+      image: bitnami/kubectl:latest
+      command: ["/bin/sh", "-c"]
+      args:
+      - |
+        kubectl get all -n argo 
+        echo "Resources verified successfully."
+        
+Submit the workflow
+-- 
+argo submit git-workflow.yaml -n argo --watch
+
+git private repo with credentials -- reference
+---
+Create a secret
+---
+kubectl create secret generic git-credentials --from-literal=username={your-github-username} --from-literal=token={your-github-personal-access-token} -n argo
+
+workflow yaml
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Workflow
+metadata:
+  generateName: deploy-from-private-git-
+  namespace: argo
+spec:
+  entrypoint: git-deploy
+  
+  arguments:
+    parameters:
+    - name: repo-url
+      value: "https://github.com/{your-username}/your-private-repo.git"
+    - name: branch
+      value: "main"
+    - name: yaml-path
+      value: "firstapp.yaml"  # Can be a file or directory
+  
+  volumeClaimTemplates:
+  - metadata:
+      name: workdir
+    spec:
+      accessModes: ["ReadWriteOnce"]
+      resources:
+        requests:
+          storage: 1Gi
+  
+  templates:
+  - name: git-deploy
+    steps:
+    - - name: clone-repo
+        template: git-clone
+    - - name: apply-yaml
+        template: kubectl-apply
+    - - name: verify
+        template: check-status
+
+  - name: git-clone
+    container:
+      image: alpine/git:latest
+      command: [sh, -c]
+      args:
+        - |
+          echo "Configuring Git credentials..."
+          git config --global credential.helper store
+          echo "https://${GIT_USERNAME}:${GIT_TOKEN}@github.com" > ~/.git-credentials
+          
+          echo "Cloning repository..."
+          git clone -b {{workflow.parameters.branch}} {{workflow.parameters.repo-url}} /work/repo
+          echo "Repository cloned successfully!"
+      env:
+      - name: GIT_USERNAME
+        valueFrom:
+          secretKeyRef:
+            name: git-credentials
+            key: username
+      - name: GIT_TOKEN
+        valueFrom:
+          secretKeyRef:
+            name: git-credentials
+            key: token
+      volumeMounts:
+      - name: workdir
+        mountPath: /work
+
+  - name: kubectl-apply
+    container:
+      image: bitnami/kubectl:latest
+      command: [sh, -c]
+      args:
+        - |
+          echo "Applying Kubernetes manifests..."
+          cd /work/repo
+          kubectl apply -f {{workflow.parameters.yaml-path}}
+          echo "Manifests applied successfully!"
+      volumeMounts:
+      - name: workdir
+        mountPath: /work
+
+  - name: check-status
+    container:
+      image: bitnami/kubectl:latest
+      command: [sh, -c]
+      args:
+        - |
+          echo "Deployment status:"
+          kubectl get all -n argo
+
+loop in argo cd
+---
+nano loop.yaml 
+
+apiVersion: argoproj.io/v1alpha1
+kind: Workflow
+metadata:
+  generateName: loop-example-
+
+spec:
+  entrypoint: print-loop
+  templates:
+  - name: print-loop
+    steps:
+    - - name: print-message
+        template: print
+        withItems:
+          - "apple"
+          - "banana"
+          - "cherry"
+        arguments:
+          parameters:
+          - name: item
+            value: "{{item}}"
+
+  - name: print
+    inputs:
+      parameters:
+      - name: item
+    container:
+      image: alpine:3.7
+      command: [sh, -c]
+      args: ["echo Item: {{inputs.parameters.item}}"]
+      
+submit the work flow
+---
+argo submit loop.yaml -n argo --watch
+
+List the pods
+---
+kubectl get po -n argo
+
+check the log of particular container
+---
+kubectl logs {your pod name} -n argo
+
+list workflow
+---
+argo list -n argo
+
+delete the work flow
+---
+argo delete {your workflow name} -n argo
+
+sequence loop
+---
+nano seq.yaml
+
+apiVersion: argoproj.io/v1alpha1
+kind: Workflow
+metadata:
+  generateName: sequence-loop-
+spec:
+  entrypoint: sequence-example
+  templates:
+  - name: sequence-example
+    steps:
+    - - name: count
+        template: print-number
+        withSequence:
+          start: "1"
+          end: "5"
+          format: "%02d"
+        arguments:
+          parameters:
+          - name: number
+            value: "{{item}}"
+  
+  - name: print-number
+    inputs:
+      parameters:
+      - name: number
+    container:
+      image: alpine:3.7
+      command: [sh, -c]
+      args: ["echo Number: {{inputs.parameters.number}}"]
+      
+submit the work flow
+---
+argo submit seq.yaml -n argo --watch
+
+List the pods
+---
+kubectl get po -n argo
+
+check the log of particular container
+---
+kubectl logs {your pod name} -n argo
+
+list workflow
+---
+argo list -n argo
+
+delete the work flow
+---
+argo delete {your workflow name} -n argo
+
+
+parameter loop
+---
+nano param-loop.yaml
+
+apiVersion: argoproj.io/v1alpha1
+kind: Workflow
+metadata:
+  generateName: param-loop-
+spec:
+  entrypoint: loop-json
+  arguments:
+    parameters:
+    - name: items-json
+      value: '["dev", "qa", "prod"]'
+  templates:
+  - name: loop-json
+    steps:
+    - - name: env-step
+        template: print-env
+        withParam: "{{workflow.parameters.items-json}}"
+        arguments:
+          parameters:
+          - name: environment
+            value: "{{item}}"
+  
+  - name: print-env
+    inputs:
+      parameters:
+      - name: environment
+    container:
+      image: alpine:3.7
+      command: [sh, -c]
+      args: ["echo Environment: {{inputs.parameters.environment}}"]
+      
+submit the work flow
+---
+argo submit param-loop.yaml -n argo --watch
+
+List the pods
+---
+kubectl get po -n argo
+
+check the log of particular container
+---
+kubectl logs {your pod name} -n argo
+
+list workflow
+---
+argo list -n argo
+
+delete the work flow
+---
+argo delete {your workflow name} -n argo
+
+submit the workflow with custon value
+---
+argo submit param-loop.yaml -n argo -p items-json='["stage", "production"]'  --watch
+
+List the pods
+---
+kubectl get po -n argo
+
+check the log of particular container
+---
+kubectl logs {your pod name} -n argo
+
+list workflow
+---
+argo list -n argo
+
+delete the work flow
+---
+argo delete {your workflow name} -n argo
